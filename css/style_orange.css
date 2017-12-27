@@ -1,10 +1,11 @@
   body {
-      font: 400 18px 'Times New Roman', sans-serif;
+      font: 400 18px ;
+	  font-family: 'Ubuntu', sans-serif;
       line-height: 1.8;
       color: #444444;
   }
   h2 {
-      font-family: 'Roboto', sans-serif;
+     
       font-size: 24px;
       text-transform: uppercase;
       color: #303030;
@@ -18,6 +19,12 @@
       font-weight: 400;
       margin-bottom: 30px;
   }  
+  
+  #name {
+	  font-family: 'Wallpoet', cursive;
+  }
+ 
+  
   img {
     max-width: 100%;
     max-height: 100%;
@@ -90,14 +97,14 @@
       line-height: 1.42857143 !important;
       letter-spacing: 1px;
       border-radius: 0;
-      font-family: 'Times New Roman';
+      
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #ff5a00 !important;
+      color: #FFA500 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #000000 !important;
-      background-color:  #ff5a00!important;
+      background-color:  #FFA500!important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -122,7 +129,7 @@
     background-size: cover;
 }
 .maintext{
-	color: #ff5a00;
+	color: #FFA500;
 }
  .parallaxbreak {
     height: 300px;
