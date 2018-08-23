@@ -12,6 +12,8 @@ h6 {
   font-weight: 700;
 }
 
+
+
 body {
   height: 100%;
   min-height: 35rem;
@@ -48,7 +50,7 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
+  background-color: #808080;
   opacity: 0.7;
   z-index: 1;
 }
@@ -69,8 +71,9 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: #006633;
+  background-color: #646D7E;
   transform: skewY(4deg);
+  opacity: 0.7;
   transform-origin: bottom right;
 }
 
@@ -187,13 +190,13 @@ video {
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #42c442;
+  border-color: #42c442;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
+  background-color: #007E00 !important;
+  border-color: #007E00 !important;
 }
 
 .input {
